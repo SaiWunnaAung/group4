@@ -9,7 +9,7 @@ services:
     ports:
       - "33060:3306"
 
-  # Application Dockerfile is in same folder which is .
+  # Application Dockerfile is in same folder which is 
   app:
     image: devopsgroup4.azurecr.io/app
     build: .
